@@ -1,0 +1,25 @@
+{
+    "name": "tailwind-css",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/merlinpraksi/tailwind-css.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/merlinpraksi/tailwind-css/issues"
+    },
+    "homepage": "https://github.com/merlinpraksi/tailwind-css#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.4.4",
+        "tailwindcss": "^2.2.19"
+    }
+}
